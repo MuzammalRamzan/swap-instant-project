@@ -1,0 +1,227 @@
+.container-fluid{
+    padding: 1px;
+    margin: 0;
+    background-image: url("image.jpeg");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.headerimg{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: rgb(255,213,79);
+    align-items: center;
+}
+.headerimg1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: rgb(255,213,79);
+    align-items: center;
+}
+
+.headerbtn {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    color: rgb(255,213,79);
+    align-items: center;
+}
+.headerbtn button{
+    display: inline-block;
+    width: 180px;
+    white-space: nowrap;
+    overflow: hidden !important;
+    text-overflow: ellipsis;
+    text-decoration: none !important;
+}
+
+.connect{
+    background-color: rgb(255,213,79);
+    color: black;
+    border-radius: 5px;
+    font-size: 20px;
+    border: 1px solid rgb(255,213,79);
+    align-items: center;
+}
+.connect:hover{
+    background-color: rgba(240, 187, 11, 0.986)
+}
+.headerbar{
+    padding-top: 120px;
+}
+.headerbar2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.row1{
+    display: flex;
+}
+#headerbar{
+    align-items: center;
+}
+#h3{
+    color: rgb(255,213,79);
+    text-align: start;
+}
+#span1{
+    color: #ffffff;
+    text-align: start;
+}
+#span{
+    color: rgb(255,213,79);
+    text-align: start;
+}
+.box{
+    background-color: rgb(255,213,79);
+    border-radius: 15px;
+    height: auto;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+
+.mycustom input[type=text] {
+    border: none;
+    width: 100%;
+    padding-right: 123px;
+    }
+    .mycustom .input-group-prepend {
+    position: absolute;
+    right: 4px;
+    top: 4px;
+    bottom: 4px;z-index:9;
+    }
+#floatingInput{
+}
+    .floatingInputrght{
+        display: flex;
+        justify-content: flex-end;
+        justify-self: flex-end;
+        /* background-color: blue; */
+    }
+
+.nputdv{
+    display: flex;
+    flex-direction: row;
+}
+@media(max-width: 768px){
+    .container-fluid{
+        padding: 1px;
+        margin: 0;
+        background-image: url("image.jpeg");
+        height: auto;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .headerimg{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        color: rgb(255,213,79);
+        align-items: center;
+    }
+    .headerimg1{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        color: rgb(255,213,79);
+        align-items: center;
+    }
+    
+    .headerbtn {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        color: rgb(255,213,79);
+        align-items: center;
+        margin: 15px 0px;
+    }
+    .headerbtn button{
+        display: inline-block;
+        width: 180px;
+        white-space: nowrap;
+        overflow: hidden !important;
+        text-overflow: ellipsis;
+        text-decoration: none !important;
+    }
+    
+    .connect{
+        background-color: rgb(255,213,79);
+        color: black;
+        border-radius: 5px;
+        font-size: 20px;
+        border: 1px solid rgb(255,213,79);
+        align-items: center;
+    }
+    .connect:hover{
+        background-color: rgba(240, 187, 11, 0.986)
+    }
+    .headerbar{
+        padding-top: 120px;
+    }
+    .headerbar2{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .row1{
+        display: flex;
+    }
+    #headerbar{
+        align-items: center;
+    }
+    #h3{
+        color: rgb(255,213,79);
+        text-align: start;
+    }
+    #span1{
+        color: #ffffff;
+        text-align: start;
+    }
+    #span{
+        color: rgb(255,213,79);
+        text-align: start;
+    }
+    .box{
+        background-color: rgb(255,213,79);
+        border-radius: 15px;
+        height: auto;
+    }
+    input::-webkit-outer-spin-button,
+    input::-webkit-inner-spin-button {
+      -webkit-appearance: none;
+      margin: 0;
+    }
+    
+    
+    .mycustom input[type=text] {
+        border: none;
+        width: 100%;
+        padding-right: 123px;
+        }
+        .mycustom .input-group-prepend {
+        position: absolute;
+        right: 4px;
+        top: 4px;
+        bottom: 4px;z-index:9;
+        }
+    #floatingInput{
+    }
+        .floatingInputrght{
+            display: flex;
+            justify-content: flex-end;
+            justify-self: flex-end;
+            /* background-color: blue; */
+        }
+    
+    .nputdv{
+        display: flex;
+        flex-direction: row;
+    }
+}
